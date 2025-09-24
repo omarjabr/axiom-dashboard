@@ -15,7 +15,7 @@ import {
   XCircle,
 } from "lucide-react";
 import React, { useState } from "react";
-import neoLogo from "../assets/axiom.svg";
+import axiomLogo from "../assets/axiom.svg";
 
 import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
@@ -78,7 +78,7 @@ export function InvoiceTemplate() {
       {/* Header */}
       <div className="flex justify-between items-start mb-8">
         <div className="flex items-center space-x-3">
-          <img src={neoLogo} alt="Neo Business" className="h-12 w-auto" />
+          <img src={axiomLogo} alt="Axiom Business" className="h-12 w-auto" />
         </div>
 
         <div className="flex gap-2">
@@ -150,7 +150,7 @@ export function InvoiceTemplate() {
         <div>
           <h3 className="font-bold text-[#11254A] mb-3">From:</h3>
           <div className="space-y-2 text-[#11254A]/80">
-            <p className="font-medium">Neo Business Solutions</p>
+            <p className="font-medium">Axiom Business Solutions</p>
             <div className="flex items-center gap-2">
               <MapPin className="h-4 w-4 text-[#0B4881]" />
               <span>456 Company Ave</span>
@@ -160,7 +160,7 @@ export function InvoiceTemplate() {
             </div>
             <div className="flex items-center gap-2">
               <Mail className="h-4 w-4 text-[#0B4881]" />
-              <span>billing@neo.com</span>
+              <span>billing@axiom.com</span>
             </div>
             <div className="flex items-center gap-2">
               <Phone className="h-4 w-4 text-[#0B4881]" />
@@ -363,7 +363,7 @@ export function InvoiceTemplate() {
               <div>
                 <p className="font-medium text-[#11254A]">Online Payment</p>
                 <p className="text-sm">
-                  Visit neo.com/pay/INV-001 and choose from multiple payment
+                  Visit axiom.com/pay/INV-001 and choose from multiple payment
                   options
                 </p>
               </div>
@@ -377,8 +377,8 @@ export function InvoiceTemplate() {
                   Traditional Methods
                 </p>
                 <p className="text-sm">
-                  Bank transfer to account: 123-456-789 or check payable to Neo
-                  Business Solutions
+                  Bank transfer to account: 123-456-789 or check payable to
+                  Axiom Business Solutions
                 </p>
               </div>
             </div>
@@ -396,7 +396,7 @@ export function InvoiceTemplate() {
       <div className="text-center mt-8 pt-6 border-t border-[#0B4881]/20">
         <p className="text-[#11254A]/70">Thank you for your business!</p>
         <p className="text-sm text-[#11254A]/50 mt-2">
-          Neo Business Solutions | www.neo.com | support@neo.com
+          Axiom Business Solutions | www.axiom.com | support@axiom.com
         </p>
       </div>
     </div>

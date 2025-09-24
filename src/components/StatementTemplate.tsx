@@ -13,7 +13,7 @@ import {
   Wallet,
 } from "lucide-react";
 import React from "react";
-import neoLogo from "../assets/axiom.svg";
+import axiomLogo from "../assets/axiom.svg";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
@@ -88,7 +88,7 @@ export function StatementTemplate() {
       {/* Header */}
       <div className="flex justify-between items-start mb-8">
         <div className="flex items-center space-x-3">
-          <img src={neoLogo} alt="Neo Business" className="h-12 w-auto" />
+          <img src={axiomLogo} alt="Axiom Business" className="h-12 w-auto" />
         </div>
 
         <div className="flex gap-2">
@@ -374,8 +374,8 @@ export function StatementTemplate() {
               </p>
               <ul className="ml-4 space-y-1 text-sm">
                 <li>• Bank Transfer: ACC-123456789</li>
-                <li>• Check: Neo Business Solutions</li>
-                <li>• Online Portal: neo.com/payments</li>
+                <li>• Check: Axiom Business Solutions</li>
+                <li>• Online Portal: axiom.com/payments</li>
               </ul>
               <p className="text-sm text-orange-600 mt-4">
                 <strong>Notice:</strong> Payment is due within 30 days of
@@ -394,10 +394,10 @@ export function StatementTemplate() {
           department.
         </p>
         <p className="text-sm text-[#11254A]/50">
-          Neo Business Solutions | 456 Company Ave, San Francisco, CA 94102
+          Axiom Business Solutions | 456 Company Ave, San Francisco, CA 94102
         </p>
         <p className="text-sm text-[#11254A]/50">
-          Phone: (555) 987-6543 | Email: accounting@neo.com | www.neo.com
+          Phone: (555) 987-6543 | Email: accounting@axiom.com | www.axiom.com
         </p>
       </div>
     </div>

@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 import React from "react";
 import { ActiveSection } from "../App";
-import neoLogo from "../assets/axiom.svg";
+import axiomLogo from "../assets/axiom.svg";
 import {
   Sidebar,
   SidebarContent,
@@ -46,7 +46,7 @@ export function DashboardSidebar({
     <Sidebar className="bg-white border-r border-sidebar-border">
       <SidebarHeader className="border-b border-sidebar-border p-6">
         <div className="flex items-center justify-start">
-          <img src={neoLogo} alt="Neo Business" className="h-8 w-auto" />
+          <img src={axiomLogo} alt="Axiom Business" className="h-8 w-auto" />
         </div>
       </SidebarHeader>
 

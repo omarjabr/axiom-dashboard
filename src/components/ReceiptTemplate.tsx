@@ -8,7 +8,7 @@ import {
   QrCode,
 } from "lucide-react";
 import React from "react";
-import neoLogo from "../assets/axiom.svg";
+import axiomLogo from "../assets/axiom.svg";
 import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
 import { Separator } from "./ui/separator";
@@ -32,7 +32,7 @@ export function ReceiptTemplate() {
       {/* Header */}
       <div className="text-center mb-6">
         <div className="flex items-center justify-center mb-4">
-          <img src={neoLogo} alt="Neo Business" className="h-10 w-auto" />
+          <img src={axiomLogo} alt="Axiom Business" className="h-10 w-auto" />
         </div>
 
         <div className="flex justify-center gap-2 mb-4">
@@ -177,10 +177,10 @@ export function ReceiptTemplate() {
           Thank you for your purchase!
         </p>
         <p className="text-xs text-[#11254A]/50">
-          Questions? Contact us at support@neo.com
+          Questions? Contact us at support@axiom.com
         </p>
         <p className="text-xs text-[#11254A]/50 mt-1">
-          Neo Business Solutions | www.neo.com
+          Axiom Business Solutions | www.axiom.com
         </p>
       </div>
 

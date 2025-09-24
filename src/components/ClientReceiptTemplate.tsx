@@ -11,7 +11,7 @@ import {
   User,
 } from "lucide-react";
 import React from "react";
-import neoLogo from "../assets/axiom.svg";
+import axiomLogo from "../assets/axiom.svg";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
@@ -39,7 +39,7 @@ export function ClientReceiptTemplate() {
       {/* Header */}
       <div className="text-center mb-6">
         <div className="flex items-center justify-center mb-4">
-          <img src={neoLogo} alt="Neo Business" className="h-12 w-auto" />
+          <img src={axiomLogo} alt="Axiom Business" className="h-12 w-auto" />
         </div>
 
         <div className="flex justify-center gap-2 mb-4">
@@ -225,7 +225,7 @@ export function ClientReceiptTemplate() {
             </p>
             <div className="flex items-center gap-2">
               <Mail className="h-3 w-3 text-[#0B4881]" />
-              <span>m.chen@neo.com</span>
+              <span>m.chen@axiom.com</span>
             </div>
             <div className="flex items-center gap-2">
               <Phone className="h-3 w-3 text-[#0B4881]" />
@@ -253,14 +253,16 @@ export function ClientReceiptTemplate() {
       {/* Footer */}
       <div className="text-center pt-4 border-t border-[#0B4881]/20">
         <p className="text-sm text-[#11254A]/70 mb-2">
-          Thank you for choosing Neo!
+          Thank you for choosing Axiom!
         </p>
-        <p className="text-xs text-[#11254A]/50 mb-1">Neo Business Solutions</p>
+        <p className="text-xs text-[#11254A]/50 mb-1">
+          Axiom Business Solutions
+        </p>
         <p className="text-xs text-[#11254A]/50 mb-1">
           456 Company Ave, San Francisco, CA 94102
         </p>
         <p className="text-xs text-[#11254A]/50">
-          www.neo.com | support@neo.com
+          www.axiom.com | support@axiom.com
         </p>
       </div>
 
